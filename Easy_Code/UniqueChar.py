@@ -1,6 +1,6 @@
 from collections import Counter
 def first_unique(s):
-	char_count=Counter(s)	#Count frequency of each character
+	char_count=Counter(s)	#Count Frequency of each character
 	for i, char in enumerate(s):
 		if char_count[char]==1:
 			return i
