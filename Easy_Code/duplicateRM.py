@@ -2,7 +2,7 @@ def remove_duplicates(nums):
     if not nums:
         return 0
     
-    # Pointer to track position of unique elements
+    # Pointer to track position of unique Elements
     unique_index = 1
 
     for i in range(1, len(nums)):
